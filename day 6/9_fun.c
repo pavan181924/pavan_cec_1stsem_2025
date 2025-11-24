@@ -1,0 +1,31 @@
+#include<stdio.h>
+int sub(int num1,int num2);
+int multiply (int num1,int num2);
+
+int main()
+{
+    int res1=sub(4,5);
+    int res2=sub(18,19);
+    int res3=sub(21,24);
+    int res4=sub(58,95);
+    int res5=sub(18,19);
+    int res6=multiply(18,19);
+    int res7=multiply(20,24);
+
+    printf("res1:%d\n",res1);
+    printf("res2:%d\n",res2);
+    printf("res3:%d\n",res3);
+    printf("res4:%d\n",res4);
+    printf("res5:%d\n",res5);
+    printf("res6:%d\n",res6);
+    printf("res7:%d\n",res7);
+}
+int sub(int num1,int num2)
+{
+    return num1-num2;
+}
+int multiply(int num1,int num2)
+{
+    return num1*num2;
+}
+
